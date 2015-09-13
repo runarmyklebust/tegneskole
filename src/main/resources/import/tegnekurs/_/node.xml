@@ -2,27 +2,9 @@
     <id>5f0acd6d-c66c-4cd1-b7dd-a67ebc409e26</id>
     <childOrder>modifiedtime DESC</childOrder>
     <nodeType>content</nodeType>
-    <timestamp>2015-09-13T14:03:11.678Z</timestamp>
-    <inheritPermissions>true</inheritPermissions>
+    <timestamp>2015-09-13T21:28:46.234Z</timestamp>
+    <inheritPermissions>false</inheritPermissions>
     <permissions>
-        <principal key="role:cms.cm.app">
-            <allow type="array">
-                <value>READ</value>
-            </allow>
-            <deny type="array"/>
-        </principal>
-        <principal key="role:system.admin">
-            <allow type="array">
-                <value>READ</value>
-                <value>CREATE</value>
-                <value>MODIFY</value>
-                <value>DELETE</value>
-                <value>PUBLISH</value>
-                <value>READ_PERMISSIONS</value>
-                <value>WRITE_PERMISSIONS</value>
-            </allow>
-            <deny type="array"/>
-        </principal>
         <principal key="role:cms.admin">
             <allow type="array">
                 <value>READ</value>
@@ -35,13 +17,19 @@
             </allow>
             <deny type="array"/>
         </principal>
+        <principal key="role:system.everyone">
+            <allow type="array">
+                <value>READ</value>
+            </allow>
+            <deny type="array"/>
+        </principal>
     </permissions>
     <data>
         <boolean name="valid">true</boolean>
         <string name="displayName">Tegnekurs</string>
         <string name="type">portal:site</string>
         <string name="owner">user:system:su</string>
-        <dateTime name="modifiedTime">2015-09-13T14:03:11.677Z</dateTime>
+        <dateTime name="modifiedTime">2015-09-13T21:28:46.233Z</dateTime>
         <string name="modifier">user:system:su</string>
         <string name="creator">user:system:su</string>
         <dateTime name="createdTime">2015-09-13T12:43:01.920Z</dateTime>
@@ -58,19 +46,41 @@
             <property-set name="region">
                 <string name="name">main</string>
                 <property-set name="component">
-                    <string name="type">PartComponent</string>
-                    <property-set name="PartComponent">
-                        <string name="name">bio</string>
-                        <string name="template">tegneskole:bio</string>
+                    <string name="type">LayoutComponent</string>
+                    <property-set name="LayoutComponent">
+                        <string name="name">Two column</string>
+                        <string name="template">tegneskole:layout-70-30</string>
                         <property-set name="config"/>
-                    </property-set>
-                </property-set>
-                <property-set name="component">
-                    <string name="type">PartComponent</string>
-                    <property-set name="PartComponent">
-                        <string name="name">kursliste</string>
-                        <string name="template">tegneskole:kursliste</string>
-                        <property-set name="config"/>
+                        <property-set name="region">
+                            <string name="name">left</string>
+                            <property-set name="component">
+                                <string name="type">PartComponent</string>
+                                <property-set name="PartComponent">
+                                    <string name="name">infobox</string>
+                                    <string name="template">tegneskole:infobox</string>
+                                    <property-set name="config"/>
+                                </property-set>
+                            </property-set>
+                            <property-set name="component">
+                                <string name="type">PartComponent</string>
+                                <property-set name="PartComponent">
+                                    <string name="name">bio</string>
+                                    <string name="template">tegneskole:bio</string>
+                                    <property-set name="config"/>
+                                </property-set>
+                            </property-set>
+                        </property-set>
+                        <property-set name="region">
+                            <string name="name">right</string>
+                            <property-set name="component">
+                                <string name="type">PartComponent</string>
+                                <property-set name="PartComponent">
+                                    <string name="name">kursliste</string>
+                                    <string name="template">tegneskole:kursliste</string>
+                                    <property-set name="config"/>
+                                </property-set>
+                            </property-set>
+                        </property-set>
                     </property-set>
                 </property-set>
             </property-set>
