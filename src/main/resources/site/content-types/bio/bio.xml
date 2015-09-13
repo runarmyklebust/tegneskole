@@ -1,0 +1,14 @@
+<content-type>
+  <display-name>Bio</display-name>
+  <super-type>base:unstructured</super-type>
+  <form>
+    <input type="HtmlArea" name="description">
+      <label>Description</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input name="image" type="ImageSelector">
+      <label>Non-required image</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+  </form>
+</content-type>

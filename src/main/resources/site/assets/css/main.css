@@ -1,0 +1,27 @@
+.bio {
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 30px;
+}
+
+.course-heading {
+    padding: 10px;
+}
+
+.course-list {
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 10px;
+}
+
+.course {
+    padding: 10px;
+}
+
+.course-entry {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.bioImage {
+    border-radius: 10px;
+}

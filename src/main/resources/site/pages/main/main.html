@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tegnekurs</title>
+    <link rel="stylesheet" data-th-href="${portal.assetUrl({'_path=css/bootstrap.min.css'})}" href="/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" data-th-href="${portal.assetUrl({'_path=css/main.css'})}" href="/assets/css/main.css"/>
+
+    <meta property="og:description" content="Tegnekurs for barn og voksne, oppstart onsdag 16.september" />
+
+</head>
+<body data-portal-component-type="page">
+
+<div class="container">
+    <div data-portal-component-type="region" data-portal-region="main">
+        <div data-th-if="${mainRegion}" data-th-each="component : ${mainRegion.components}" data-th-remove="tag">
+            <div data-portal-component="${component.path}" data-th-remove="tag"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

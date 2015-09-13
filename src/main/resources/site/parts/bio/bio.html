@@ -1,0 +1,17 @@
+<div class="bio">
+    <div class="row">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 data-th-text="${name}"></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="description" data-th-utext="${portal.processHtml({'_value=' + description})}"></div>
+            </div>
+            <div class="col-md-4">
+                <img class="bioImage" src="#" data-th-src="${image}"/>
+            </div>
+        </div>
+    </div>
+</div>

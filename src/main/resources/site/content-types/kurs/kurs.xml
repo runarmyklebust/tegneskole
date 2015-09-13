@@ -1,0 +1,30 @@
+<content-type>
+  <display-name>Kurs</display-name>
+  <super-type>base:unstructured</super-type>
+  <form>
+    <input type="HtmlArea" name="description">
+      <label>Description</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input type="TextLine" name="startup">
+      <label>Oppstart</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input type="TextLine" name="time">
+      <label>Tidspunkt</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input type="TextLine" name="price">
+      <label>Pris</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input type="Long" name="occurrences">
+      <label>Antall ganger</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+    <input type="TextLine" name="location">
+      <label>Sted</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+  </form>
+</content-type>
