@@ -1,12 +1,14 @@
-
 <div class="course-list">
 
-    <h2>Kurs <small>høst 2015</small></h2>
+    <h2 class="kurs-heading">Kurs
+        <small>høst 2015</small>
+    </h2>
 
     <div class="row" data-th-each="course : ${courses}">
 
         <div class="course">
             <div class="course-entry">
+
                 <div class="row">
                     <div class="col-md-12">
                         <h2 data-th-text="${course.name}"></h2>
@@ -14,22 +16,17 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <div class="description" data-th-utext="${portal.processHtml({'_value=' + course.description})}"></div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="info">
-                            <div><strong>Oppstart:</strong> <span data-th-text="${course.startup}"></span></div>
-                            <div><strong>Tidspunkt:</strong> <span data-th-text="${course.time}"></span></div>
-                            <div><strong>Kursavgift:</strong> kr <span data-th-text="${course.price}"></span></div>
-                            <div><strong>Antall ganger:</strong> <span data-th-text="${course.occurrences}"></span></div>
-                            <div><strong>Sted:</strong> <span data-th-text="${course.location}"></span></div>
-                        </div>
+                        <div><strong>Oppstart:</strong> <span data-th-text="${course.startup}"></span></div>
+                        <div><strong>Tidspunkt:</strong> <span data-th-text="${course.time}"></span></div>
+                        <div><strong>Kursavgift:</strong> kr <span data-th-text="${course.price}"></span></div>
+                        <div><strong>Antall ganger:</strong> <span data-th-text="${course.occurrences}"></span></div>
+                        <div><strong>Sted:</strong> <span data-th-text="${course.location}"></span></div>
                     </div>
                 </div>
+
             </div>
         </div>
-
     </div>
-
 </div>

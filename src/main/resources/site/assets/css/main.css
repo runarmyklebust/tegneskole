@@ -18,10 +18,46 @@
 
 .course-entry {
     background-color: #eee;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
 }
 
-.bioImage {
-    border-radius: 10px;
+.bio {
+    padding: 10px;
+}
+
+.bio-image {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.infobox-list {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.infobox {
+    padding: 10px;
+}
+
+.infobox-heading {
+    border: 2px lightgrey;
+    border-style: none none solid none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.bio-heading {
+    border: 2px lightgrey;
+    border-style: none none solid none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.kurs-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
 }

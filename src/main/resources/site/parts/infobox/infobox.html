@@ -1,0 +1,24 @@
+<div class="infobox-list">
+
+    <div class="row" data-th-each="infobox : ${infoboxes}">
+
+        <div class="infobox">
+            <div class="infobox-entry">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="infobox-heading" data-th-text="${infobox.heading}"></h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 data-th-text="${infobox.preface}"></h3>
+                        <div class="description" data-th-utext="${portal.processHtml({'_value=' + infobox.description})}"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
