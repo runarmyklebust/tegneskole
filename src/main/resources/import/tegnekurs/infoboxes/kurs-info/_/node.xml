@@ -2,7 +2,7 @@
     <id>2d20bd31-b88c-464e-b9e5-1d535b378b08</id>
     <childOrder>modifiedtime DESC</childOrder>
     <nodeType>content</nodeType>
-    <timestamp>2015-09-13T21:34:36.833Z</timestamp>
+    <timestamp>2015-09-14T10:01:13.432Z</timestamp>
     <inheritPermissions>true</inheritPermissions>
     <permissions>
         <principal key="role:cms.admin">
@@ -29,7 +29,7 @@
         <string name="displayName">Kurs-info</string>
         <string name="type">tegneskole:infobox</string>
         <string name="owner">user:system:su</string>
-        <dateTime name="modifiedTime">2015-09-13T21:34:36.832Z</dateTime>
+        <dateTime name="modifiedTime">2015-09-14T10:01:13.431Z</dateTime>
         <string name="modifier">user:system:su</string>
         <string name="creator">user:system:su</string>
         <dateTime name="createdTime">2015-09-13T21:26:22.353Z</dateTime>
@@ -73,7 +73,7 @@
 &lt;p&gt;pennesplitt&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Kursene avholdes i &lt;strong&gt;Utmarkveien barnehage&lt;/strong&gt; v/ B&amp;oslash;ler skole&lt;/p&gt;</string>
+&lt;p&gt;Kursene avholdes i &lt;strong&gt;Utmarkveien barnehage, Utmarkveien 6&amp;nbsp;&lt;/strong&gt;&amp;nbsp;(v/ B&amp;oslash;ler skole)&lt;/p&gt;</string>
         </property-set>
     </data>
     <indexConfigs>

@@ -2,7 +2,7 @@
     <id>5f0acd6d-c66c-4cd1-b7dd-a67ebc409e26</id>
     <childOrder>modifiedtime DESC</childOrder>
     <nodeType>content</nodeType>
-    <timestamp>2015-09-13T22:04:35.293Z</timestamp>
+    <timestamp>2015-09-14T10:35:14.787Z</timestamp>
     <inheritPermissions>false</inheritPermissions>
     <permissions>
         <principal key="role:cms.admin">
@@ -29,7 +29,7 @@
         <string name="displayName">Tegnekurs</string>
         <string name="type">portal:site</string>
         <string name="owner">user:system:su</string>
-        <dateTime name="modifiedTime">2015-09-13T22:04:35.292Z</dateTime>
+        <dateTime name="modifiedTime">2015-09-14T10:35:14.786Z</dateTime>
         <string name="modifier">user:system:su</string>
         <string name="creator">user:system:su</string>
         <dateTime name="createdTime">2015-09-13T12:43:01.920Z</dateTime>
@@ -58,6 +58,14 @@
                                 <property-set name="PartComponent">
                                     <string name="name">infobox</string>
                                     <string name="template">tegneskole:infobox</string>
+                                    <property-set name="config"/>
+                                </property-set>
+                            </property-set>
+                            <property-set name="component">
+                                <string name="type">PartComponent</string>
+                                <property-set name="PartComponent">
+                                    <string name="name">imagebox</string>
+                                    <string name="template">tegneskole:imagebox</string>
                                     <property-set name="config"/>
                                 </property-set>
                             </property-set>

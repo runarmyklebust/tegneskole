@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Kurs i tegning</title>
     <link rel="stylesheet" data-th-href="${portal.assetUrl({'_path=css/bootstrap.min.css'})}" href="/assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" data-th-href="${portal.assetUrl({'_path=css/main.css'})}" href="/assets/css/main.css"/>
-
-    <meta property="og:description" content="Tegnekurs for barn og voksne, oppstart onsdag 16.september"/>
-
+    <meta property="og:url" content="http://rmy.employee.enonic.io" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Liker du å tegne å male?" />
+    <meta property="og:description" content="Tegnekurs for barn, ungdom og voksne. Oppstart onsdag 16.september på Bøler" />
+    <meta property="og:image" data-th-content="${portal.assetUrl({'_path=image/sofa.jpg'})}" />
 </head>
+
 <body data-portal-component-type="page">
 
 <div class="container">
-    <div data-portal-component-type="region" data-portal-region="main">
+    <div data-portal-region="main">
         <div data-th-if="${mainRegion}" data-th-each="component : ${mainRegion.components}" data-th-remove="tag">
             <div data-portal-component="${component.path}" data-th-remove="tag"></div>
         </div>

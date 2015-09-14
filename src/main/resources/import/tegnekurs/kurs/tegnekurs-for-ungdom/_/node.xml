@@ -2,7 +2,7 @@
     <id>45eab449-5778-4864-8ced-280776843baf</id>
     <childOrder>modifiedtime DESC</childOrder>
     <nodeType>content</nodeType>
-    <timestamp>2015-09-14T07:41:06.402Z</timestamp>
+    <timestamp>2015-09-14T09:49:06.205Z</timestamp>
     <inheritPermissions>true</inheritPermissions>
     <permissions>
         <principal key="role:cms.admin">
@@ -29,7 +29,7 @@
         <string name="displayName">Tegnekurs for ungdom</string>
         <string name="type">tegneskole:kurs</string>
         <string name="owner">user:system:su</string>
-        <dateTime name="modifiedTime">2015-09-14T07:41:06.402Z</dateTime>
+        <dateTime name="modifiedTime">2015-09-14T09:49:06.204Z</dateTime>
         <string name="modifier">user:system:su</string>
         <string name="creator">user:system:su</string>
         <dateTime name="createdTime">2015-09-13T13:05:41.468Z</dateTime>
@@ -42,7 +42,7 @@
             <string name="time">Onsdager 19:00 - 20:00</string>
             <string name="price">1500</string>
             <long name="occurrences">8</long>
-            <string name="location">Utmarksveien barnehage ved Bøler skole</string>
+            <string name="location">Utmarkveien 6</string>
         </property-set>
     </data>
     <indexConfigs>

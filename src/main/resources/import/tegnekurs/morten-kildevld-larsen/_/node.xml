@@ -2,7 +2,7 @@
     <id>9af0bcaa-4c72-4236-9b5e-c83df4c4072a</id>
     <childOrder>modifiedtime DESC</childOrder>
     <nodeType>content</nodeType>
-    <timestamp>2015-09-13T21:07:52.405Z</timestamp>
+    <timestamp>2015-09-14T09:53:47.567Z</timestamp>
     <inheritPermissions>true</inheritPermissions>
     <permissions>
         <principal key="role:cms.admin">
@@ -29,14 +29,16 @@
         <string name="displayName">Morten Kildevæld Larsen</string>
         <string name="type">tegneskole:bio</string>
         <string name="owner">user:system:su</string>
-        <dateTime name="modifiedTime">2015-09-13T21:07:52.404Z</dateTime>
+        <dateTime name="modifiedTime">2015-09-14T09:53:47.566Z</dateTime>
         <string name="modifier">user:system:su</string>
         <string name="creator">user:system:su</string>
         <dateTime name="createdTime">2015-09-13T14:01:15.058Z</dateTime>
         <property-set name="data">
             <string name="description">&lt;p&gt;Kurset holdes av billedkunstner og l&amp;aelig;rer Morten Kildev&amp;aelig;ld Larsen.&lt;/p&gt;
 &lt;p&gt;Utdannet ved&amp;nbsp;Kunsth&amp;oslash;yskolen i Bergen, institutt for Grafisk Design og Illustrasjon.&lt;/p&gt;
-&lt;p&gt;Kildev&amp;aelig;ld Larsen har jobbet som fagl&amp;aelig;rer i kunst og h&amp;aring;ndverk ved Karlsrud skole,&amp;nbsp;&lt;br /&gt;Oppsal skole, Porsgrunn Kulturskole og Sogndal folkeh&amp;oslash;yskole.&lt;/p&gt;</string>
+&lt;p&gt;Kildev&amp;aelig;ld Larsen har jobbet som fagl&amp;aelig;rer i kunst og h&amp;aring;ndverk ved Karlsrud skole,&amp;nbsp;&lt;br /&gt;Oppsal skole, Porsgrunn Kulturskole og Sogndal folkeh&amp;oslash;yskole.&lt;/p&gt;
+&lt;p&gt;Epost:&amp;nbsp;&lt;a href="mailto:mortenklarsen4@yahoo.no?subject=kontakt"&gt;mortenklarsen4@yahoo.no&lt;br /&gt;&lt;/a&gt;Telefon: 993 922 59&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</string>
             <reference name="image">a73bf78c-1683-40a6-a2c3-e54625dec566</reference>
         </property-set>
     </data>

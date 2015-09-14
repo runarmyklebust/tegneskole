@@ -1,8 +1,8 @@
 <node>
-    <id>960eaee2-1d57-456e-84fa-4eaac2316393</id>
+    <id>c583bc41-7fe3-4304-a1d8-05a20dfda059</id>
     <childOrder>modifiedtime DESC</childOrder>
     <nodeType>content</nodeType>
-    <timestamp>2015-09-14T09:48:57.681Z</timestamp>
+    <timestamp>2015-09-14T10:34:47.137Z</timestamp>
     <inheritPermissions>true</inheritPermissions>
     <permissions>
         <principal key="role:cms.admin">
@@ -26,23 +26,15 @@
     </permissions>
     <data>
         <boolean name="valid">true</boolean>
-        <string name="displayName">Tegnekurs for voksne</string>
-        <string name="type">tegneskole:kurs</string>
+        <string name="displayName">kontur</string>
+        <string name="type">tegneskole:imagepicker</string>
         <string name="owner">user:system:su</string>
-        <dateTime name="modifiedTime">2015-09-14T09:48:57.679Z</dateTime>
+        <dateTime name="modifiedTime">2015-09-14T10:34:47.108Z</dateTime>
         <string name="modifier">user:system:su</string>
         <string name="creator">user:system:su</string>
-        <dateTime name="createdTime">2015-09-13T13:05:41.468Z</dateTime>
+        <dateTime name="createdTime">2015-09-14T10:34:39.069Z</dateTime>
         <property-set name="data">
-            <string name="description">&lt;p&gt;&lt;strong&gt;L&amp;aelig;re noe nytt og spennende eller utvikle et allerede eget uttrykk!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Det vil bli lagt vekt p&amp;aring;&amp;nbsp;individuell veiledning og utpr&amp;oslash;ving i forskjellige teknikker.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Materialer er inkludert i kursavgiften.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="mailto:mortenklarsen4@yahoo.no?subject=P%C3%A5melding%20tegnekurs%20voksen"&gt;Meld deg p&amp;aring; her&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</string>
-            <string name="startup">16/9-2015</string>
-            <string name="time">Onsdager 20:30 - 22:00</string>
-            <string name="price">2000</string>
-            <long name="occurrences">8</long>
-            <string name="location">Utmarkveien 6</string>
+            <reference name="image">256b09f0-039c-41f2-b80f-48e0c03de44f</reference>
         </property-set>
     </data>
     <indexConfigs>
@@ -77,6 +69,36 @@
                     </indexValueProcessors>
                 </indexConfig>
                 <path>data.htmlarea_text</path>
+            </pathIndexConfig>
+            <pathIndexConfig>
+                <indexConfig>
+                    <decideByType>false</decideByType>
+                    <enabled>true</enabled>
+                    <nGram>false</nGram>
+                    <fulltext>false</fulltext>
+                    <includeInAllText>false</includeInAllText>
+                </indexConfig>
+                <path>creator</path>
+            </pathIndexConfig>
+            <pathIndexConfig>
+                <indexConfig>
+                    <decideByType>false</decideByType>
+                    <enabled>true</enabled>
+                    <nGram>false</nGram>
+                    <fulltext>false</fulltext>
+                    <includeInAllText>false</includeInAllText>
+                </indexConfig>
+                <path>createdTime</path>
+            </pathIndexConfig>
+            <pathIndexConfig>
+                <indexConfig>
+                    <decideByType>false</decideByType>
+                    <enabled>true</enabled>
+                    <nGram>false</nGram>
+                    <fulltext>false</fulltext>
+                    <includeInAllText>false</includeInAllText>
+                </indexConfig>
+                <path>modifiedTime</path>
             </pathIndexConfig>
             <pathIndexConfig>
                 <indexConfig>
@@ -157,36 +179,6 @@
                     <includeInAllText>false</includeInAllText>
                 </indexConfig>
                 <path>type</path>
-            </pathIndexConfig>
-            <pathIndexConfig>
-                <indexConfig>
-                    <decideByType>false</decideByType>
-                    <enabled>true</enabled>
-                    <nGram>false</nGram>
-                    <fulltext>false</fulltext>
-                    <includeInAllText>false</includeInAllText>
-                </indexConfig>
-                <path>creator</path>
-            </pathIndexConfig>
-            <pathIndexConfig>
-                <indexConfig>
-                    <decideByType>false</decideByType>
-                    <enabled>true</enabled>
-                    <nGram>false</nGram>
-                    <fulltext>false</fulltext>
-                    <includeInAllText>false</includeInAllText>
-                </indexConfig>
-                <path>createdTime</path>
-            </pathIndexConfig>
-            <pathIndexConfig>
-                <indexConfig>
-                    <decideByType>false</decideByType>
-                    <enabled>true</enabled>
-                    <nGram>false</nGram>
-                    <fulltext>false</fulltext>
-                    <includeInAllText>false</includeInAllText>
-                </indexConfig>
-                <path>modifiedTime</path>
             </pathIndexConfig>
         </pathIndexConfigs>
     </indexConfigs>

@@ -1,0 +1,10 @@
+<content-type>
+  <display-name>ImagePicker</display-name>
+  <super-type>base:unstructured</super-type>
+  <form>
+    <input name="image" type="ImageSelector">
+      <label>Non-required image</label>
+      <occurrences minimum="0" maximum="1"/>
+    </input>
+  </form>
+</content-type>
