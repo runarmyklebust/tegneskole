@@ -2,7 +2,7 @@
     <id>45eab449-5778-4864-8ced-280776843baf</id>
     <childOrder>modifiedtime DESC</childOrder>
     <nodeType>content</nodeType>
-    <timestamp>2015-09-14T09:49:06.205Z</timestamp>
+    <timestamp>2016-01-26T18:22:19.413Z</timestamp>
     <inheritPermissions>true</inheritPermissions>
     <permissions>
         <principal key="role:cms.admin">
@@ -29,7 +29,7 @@
         <string name="displayName">Tegnekurs for ungdom</string>
         <string name="type">tegneskole:kurs</string>
         <string name="owner">user:system:su</string>
-        <dateTime name="modifiedTime">2015-09-14T09:49:06.204Z</dateTime>
+        <dateTime name="modifiedTime">2016-01-26T18:22:19.412Z</dateTime>
         <string name="modifier">user:system:su</string>
         <string name="creator">user:system:su</string>
         <dateTime name="createdTime">2015-09-13T13:05:41.468Z</dateTime>
@@ -38,8 +38,8 @@
 &lt;p&gt;Det vil bli lagt vekt p&amp;aring;&amp;nbsp;individuell veiledning og utpr&amp;oslash;ving i forskjellige teknikker.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Materialer er inkludert i kursavgiften.&lt;/em&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href="mailto:mortenklarsen4@yahoo.no?subject=P%C3%A5melding%20tegnekurs%20voksen"&gt;Meld deg p&amp;aring; her&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</string>
-            <string name="startup">16/9-2015</string>
-            <string name="time">Onsdager 19:00 - 20:00</string>
+            <string name="startup">27/01-2016</string>
+            <string name="time">Onsdager 18:30 - 19:30</string>
             <string name="price">1500</string>
             <long name="occurrences">8</long>
             <string name="location">Utmarkveien 6</string>

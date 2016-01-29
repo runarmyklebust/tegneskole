@@ -2,7 +2,7 @@
     <id>2d20bd31-b88c-464e-b9e5-1d535b378b08</id>
     <childOrder>modifiedtime DESC</childOrder>
     <nodeType>content</nodeType>
-    <timestamp>2015-09-14T10:01:13.432Z</timestamp>
+    <timestamp>2016-01-26T18:21:05.551Z</timestamp>
     <inheritPermissions>true</inheritPermissions>
     <permissions>
         <principal key="role:cms.admin">
@@ -29,15 +29,27 @@
         <string name="displayName">Kurs-info</string>
         <string name="type">tegneskole:infobox</string>
         <string name="owner">user:system:su</string>
-        <dateTime name="modifiedTime">2015-09-14T10:01:13.431Z</dateTime>
+        <dateTime name="modifiedTime">2016-01-26T18:21:05.549Z</dateTime>
         <string name="modifier">user:system:su</string>
         <string name="creator">user:system:su</string>
         <dateTime name="createdTime">2015-09-13T21:26:22.353Z</dateTime>
         <property-set name="data">
             <string name="heading">Liker du å tegne og male?</string>
             <string name="preface">Vil du lære noe nytt og spennende, eller videreutvikle et allerede eget uttrykk?</string>
-            <string name="description">&lt;p&gt;NYE KURS STARTER OPP ONSDAG 16. SEPTEMBER&lt;/p&gt;
-&lt;p&gt;Tema gjennom h&amp;oslash;sten:&amp;nbsp;&lt;/p&gt;
+            <string name="description">&lt;h1&gt;Nye kurs vinteren 2016&lt;/h1&gt;
+&lt;p&gt;Oppstart &lt;strong&gt;ONSDAG 27. JANUAR&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Kursene bygger videre p&amp;aring; h&amp;oslash;stens kursinnhold, men det er ingen forutsetning &amp;aring; ha deltatt p&amp;aring; disse. Nye elever er velkomne. Kursene g&amp;aring;r over 8 ganger.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h1&gt;Workshops vinter / v&amp;aring;r 2016&lt;/h1&gt;
+&lt;p&gt;Det vil i tillegg bli lagt ut tilbud om tre workshop-helger i l&amp;oslash;pet av vinteren/v&amp;aring;ren 2016.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bokbinding&lt;/li&gt;
+&lt;li&gt;Grafikk / Tresnitt&lt;/li&gt;
+&lt;li&gt;Leire&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tidspunkter blir annonsert i l&amp;oslash;pet av januar. Begrenset antall plasser.&lt;strong&gt; Meld din interesse &lt;a href="mailto:mortenklarsen4@yahoo.no?subject=Interesse%20workshop"&gt;her&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Tema gjennom vinterens kurs:&amp;nbsp;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;modell og portrett&lt;/p&gt;

@@ -1,4 +1,4 @@
-package com.enonic.xp.demo.initializer;
+package org.morten.tegneskole.initializer;
 
 import java.util.concurrent.Callable;
 
@@ -35,7 +35,6 @@ import com.enonic.xp.vfs.VirtualFiles;
 @Component(immediate = true)
 public class ContentInitializer
 {
-
     private static final AccessControlList PERMISSIONS =
         AccessControlList.of( AccessControlEntry.create().principal( RoleKeys.EVERYONE ).allow( Permission.READ ).build(),
                               AccessControlEntry.create().principal( RoleKeys.CONTENT_MANAGER_ADMIN ).allowAll().build() );
@@ -93,7 +92,6 @@ public class ContentInitializer
 
             contentService.applyPermissions( ApplyContentPermissionsParams.create().
                 contentId( demoContent.getId() ).
-                modifier( PrincipalKey.ofAnonymous() ).
                 build() );
         }
     }
